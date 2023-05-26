@@ -3,15 +3,15 @@ import { Menu } from '@/types/menu'
 const menuData: Menu[] = [
     {
         id: 1,
-        title: 'Home',
-        path: '/',
-        newTab: false,
+        title: 'Frontend code',
+        path: 'https://github.com/oliverTuesta/frontend-reddit-communities',
+        newTab: true,
     },
     {
         id: 2,
-        title: 'About',
-        path: '#hero',
-        newTab: false,
+        title: 'Python code',
+        path: 'https://github.com/oliverTuesta/reddit-communities',
+        newTab: true,
     },
 ]
 export default menuData

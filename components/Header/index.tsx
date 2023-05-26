@@ -112,6 +112,11 @@ const Header = () => {
                                             >
                                                 {menuItem.path ? (
                                                     <Link
+                                                        target={
+                                                            menuItem.newTab
+                                                                ? '_blank'
+                                                                : '_self'
+                                                        }
                                                         href={menuItem.path}
                                                         className={`text-dark flex py-2 text-base group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                                                     >
