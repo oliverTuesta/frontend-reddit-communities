@@ -1,15 +1,10 @@
 import AboutSectionOne from '@/components/About/AboutSectionOne'
 import AboutSectionTwo from '@/components/About/AboutSectionTwo'
-import Blog from '@/components/Blog'
-import Brands from '@/components/Brands'
+import Stack from '@/components/Brands'
 import ScrollUp from '@/components/Common/ScrollUp'
-import Contact from '@/components/Contact'
-import Features from '@/components/Features'
+import Values from '@/components/Values'
 import Hero from '@/components/Hero'
-import Pricing from '@/components/Pricing'
-import Graph from '@/components/Graph'
-import Testimonials from '@/components/Testimonials'
-import Video from '@/components/Video'
+import Team from '@/components/Team'
 import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,16 +14,11 @@ export default function Home() {
         <>
             <ScrollUp />
             <Hero />
-            <Graph />
-            <Features />
-            <Video />
-            <Brands />
+            <Values />
+            <Stack />
             <AboutSectionOne />
             <AboutSectionTwo />
-            <Testimonials />
-            <Pricing />
-            <Blog />
-            <Contact />
+            <Team />
         </>
     )
 }

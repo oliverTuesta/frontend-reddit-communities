@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { FiGithub } from 'react-icons/fi'
+import { TbBrandPython } from 'react-icons/tb'
 
 const Hero = () => {
     return (
@@ -14,7 +16,7 @@ const Hero = () => {
                                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                                 data-wow-delay=".2s"
                             >
-                                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                                <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                                     Reddit communities detection using Louvain
                                     algorithm
                                 </h1>
@@ -36,12 +38,14 @@ const Hero = () => {
                                         href="https://github.com/oliverTuesta/reddit-communities"
                                         className="bg-primary hover:bg-primary/80 rounded-md py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out"
                                     >
-                                        Python code
+                                        <TbBrandPython className="mr-3 inline-block" />
+                                        Get Started
                                     </Link>
                                     <Link
-                                        href="https://github.com/oliverTuesta/frontend-reddit-communities"
+                                        href="https://reddit-communities-detector.netlify.app/"
                                         className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                                     >
+                                        <FiGithub className="mr-3 inline-block" />
                                         Frontend Code
                                     </Link>
                                 </div>
