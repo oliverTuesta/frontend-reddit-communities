@@ -35,14 +35,14 @@ const Hero = () => {
                                 </p>
                                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                                     <Link
-                                        href="https://github.com/oliverTuesta/reddit-communities"
+                                        href="https://reddit-communities-detector.netlify.app/"
                                         className="bg-primary hover:bg-primary/80 rounded-md py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out"
                                     >
                                         <TbBrandPython className="mr-3 inline-block" />
                                         Get Started
                                     </Link>
                                     <Link
-                                        href="https://reddit-communities-detector.netlify.app/"
+                                        href="https://github.com/oliverTuesta/frontend-reddit-communities"
                                         className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                                     >
                                         <FiGithub className="mr-3 inline-block" />
